@@ -1,0 +1,9 @@
+To install gems use:
+
+gem install sinatra
+gem install json
+gem install json_pure
+
+To run sinatra use:
+
+ruby -rubygems config.ru -p 3000
