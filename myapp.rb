@@ -12,7 +12,7 @@
 		roulette = rand(38)-1
 		roulette = '00' if (roulette == -1)
 
-		{:roulette => roulette.to_s}.to_json		
+		{:winning_number => roulette.to_s}.to_json		
 	end
 
 
